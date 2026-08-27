@@ -12,16 +12,17 @@ public class twoDArray1 {
        { 82, 87, 92, 97,100},
        { 81, 86, 91, 96,99},
        
+       };
        
-       
-        for (int i = 0; i < grades.length; i++) {
+        for ( int i = 0; i < grades.length; i++) 
             for (int j = 0; j < grades[i].length; j++) {
-                System.out.print(grades[i] [j]  +    "");
+                System.out.print(grades[i] [j]  +    "  ");
             }
-            System.out.print(grades [i] +     " " );
+           System.out.println();
         }
-        System.out.println("");
+       
     }
+
     
     
-}
+
